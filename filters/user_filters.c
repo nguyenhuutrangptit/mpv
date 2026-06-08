@@ -41,6 +41,7 @@ const struct mp_user_filter_entry *af_list[] = {
 #endif
     &af_lavcac3enc,
     &af_drop,
+    &af_aiextract,
 };
 
 static bool get_af_desc(struct m_obj_desc *dst, int index)
